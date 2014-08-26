@@ -1,7 +1,7 @@
 'use strict';
 
 var Promise = require('bluebird');
-var baseURL = process.argv[3] || 'http://registrar.ufl.edu/soc/201408/all/';
+var baseURL = process.argv[4] || 'http://registrar.ufl.edu/soc/201408/all/';
 var builder = require('./lib/departments')(baseURL);
 var env = require('./lib/env');
 var courses = require('./lib/courses');

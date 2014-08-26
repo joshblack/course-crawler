@@ -1,0 +1,1 @@
+- Remove `use strict` from all files. Added --use_strict flag to npm start

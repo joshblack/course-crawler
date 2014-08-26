@@ -5,13 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --harmony app.js"
+    "start": "node --harmony --use_strict app.js"
   },
   "author": "Josh Black <joshuatblack@ufl.edu>",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^2.3.1",
+    "hashmap": "^1.1.0",
     "jquery": "^2.1.1",
-    "jsdom": "^1.0.0-pre.3"
+    "jsdom": "^1.0.0-pre.3",
+    "request": "^2.40.0"
   }
 }

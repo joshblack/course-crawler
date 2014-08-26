@@ -1,8 +1,8 @@
 ### Usage:
 Use any of the following commands in the root directory:
 
-1. `node app.js --harmony` 
-2. `node app.js --harmony URL_FOR_CURRENT_REGISTRAR`
+1. `node app.js --harmony --use_strict` 
+2. `node app.js --harmony --use_strict URL_FOR_CURRENT_REGISTRAR`
 3. `npm start`
 
 ### Source files
